@@ -17,11 +17,12 @@
     <div uk-sticky="media: 960"
         class="uk-navbar-container tm-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed">
         <div class="uk-container uk-container-expand">
-            <nav uk-navbar>
+            <nav uk-navbar style="height: 60px">
                 <div class="uk-navbar-left">
-                    <ul class="uk-navbar-nav">
+                    <ul class="uk-navbar-nav uk-navbar-nav-title">
                         <li>
-                            <h3>何以愚的官方网站</h2>
+                            <a href="index.html"><img src="../image/bangbangtang.svg" width="40" height="40"
+                                    uk-svg>何以愚</a>
                         </li>
 
                     </ul>
@@ -30,14 +31,17 @@
 
                 <div class="uk-navbar-right">
                     <ul class="uk-navbar-nav">
-
-                        <li class="uk-parent"><a aria-expanded="false" class="">golang教程</a>
+                        <li class="uk-parent"><a href="course.html" aria-expanded="false" class="">To语言教程</a>
                         </li>
-                        <li class="uk-parent"><a aria-expanded="false" class="">算法教程</a>
+                        <li class="uk-parent"><a href="course.html" aria-expanded="false" class="">知乎高级教程</a>
                         </li>
-                        <li class="uk-parent"><a aria-expanded="false" class="">冥想实践运用</a>
+                        <li class="uk-parent"><a href="course.html" aria-expanded="false" class="">做菜入门教程</a>
                         </li>
-                        <li class="uk-parent"><a aria-expanded="false" class="">文章</a>
+                        <li class="uk-parent"><a href="course.html" aria-expanded="false" class="">穿衣搭配指南</a>
+                        </li>
+                        <li class="uk-parent"><a href="course.html" aria-expanded="false" class="">身心健康训练营</a>
+                        </li>
+                        <li class="uk-parent"><a href="blog.html" aria-expanded="false" class="">愚文</a>
                         </li>
                     </ul>
                 </div>
@@ -46,130 +50,415 @@
         </div>
     </div>
     <!--正文-->
+
     <div class="uk-section uk-section-default">
         <div class="uk-container uk-container-large">
             <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
-                <div class="uk-width-1-4@m">
+                <div class="uk-width-3-4@m">
+                    <h3>最热教程 <span class="uk-margin-small-right" uk-icon="grid"></span></h4>
+                        <hr>
 
-                    <ul class="uk-nav-default uk-nav-parent-icon" uk-nav="multiple: true">
-                        <li class="uk-active"><a href="#">Active</a></li>
-                        <li class="uk-parent">
-                            <a href="#">Parent</a>
-                            <ul class="uk-nav-sub">
-                                <li><a href="#">Sub item</a></li>
-                                <li>
-                                    <a href="#">Sub item</a>
-                                    <ul>
-                                        <li><a href="#">Sub item</a></li>
-                                        <li><a href="#">Sub item</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="uk-parent">
-                            <a href="#">Parent</a>
-                            <ul class="uk-nav-sub">
-                                <li><a href="#">Sub item</a></li>
-                                <li><a href="#">Sub item</a></li>
-                            </ul>
-                        </li>
-                        <li class="uk-parent">
-                            <a href="#">Parent</a>
-                            <ul class="uk-nav-sub">
-                                <li><a href="#">Sub item</a></li>
-                                <li><a href="#">Sub item</a></li>
-                            </ul>
-                        </li>
-                        <li class="uk-parent">
-                            <a href="#">Parent</a>
-                            <ul class="uk-nav-sub">
-                                <li><a href="#">Sub item</a></li>
-                                <li><a href="#">Sub item</a></li>
-                            </ul>
-                        </li>
-                        <li class="uk-parent">
-                            <a href="#">Parent</a>
-                            <ul class="uk-nav-sub">
-                                <li><a href="#">Sub item</a></li>
-                                <li><a href="#">Sub item</a></li>
-                            </ul>
-                        </li>
-                        <li class="uk-parent">
-                            <a href="#">Parent</a>
-                            <ul class="uk-nav-sub">
-                                <li><a href="#">Sub item</a></li>
-                                <li><a href="#">Sub item</a></li>
-                            </ul>
-                        </li>
-                        <li class="uk-parent">
-                            <a href="#">Parent</a>
-                            <ul class="uk-nav-sub">
-                                <li><a href="#">Sub item</a></li>
-                                <li><a href="#">Sub item</a></li>
-                            </ul>
-                        </li>
-                        <li class="uk-parent">
-                            <a href="#">Parent</a>
-                            <ul class="uk-nav-sub">
-                                <li><a href="#">Sub item</a></li>
-                                <li><a href="#">Sub item</a></li>
-                            </ul>
-                        </li>
+                        <div class="uk-child-width-1-2@s uk-child-width-1-2@m index-block-margin" uk-grid>
+                            <div>
+                                <div class="uk-flex-middle uk-animation-toggle" uk-grid>
+                                    <div class="uk-width-3-4@m">
+                                        <h4><a class="uk-link-heading">To语言教程</a></h4>
+                                        <p>面向小白的免费在线教程，不管是跳广场舞的阿姨，又或是金融白领，每天半小时可以轻松学会！</p>
+                                    </div>
+                                    <div class="uk-width-1-4@m uk-flex-first uk-animation-slide-left-medium">
+                                        <img class="img-border-radius"
+                                            src="https://img2.mukewang.com/szimg/5d919e87087c044201400140-140-140.jpg"
+                                            alt="Image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-flex-middle uk-animation-toggle" uk-grid>
+                                    <div class="uk-width-3-4@m">
+                                        <h4><a class="uk-link-heading">知乎高级教程</a></h4>
+                                        <p>免费面向刷知乎一年以上、仍然生活没什么改善的乎友。本教程以语音的方式，分享知乎高阶操作方法。</p>
+                                    </div>
+                                    <div class="uk-width-1-4@m uk-flex-first uk-animation-slide-left-medium">
+                                        <img class="img-border-radius" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1571465083749&di=5534a781f84e77974bebb09943e1e256&imgtype=0&src=http%3A%2F%2Fwww.cnr.cn%2Fgsgb%2Fzbll%2F20170907%2FW020170907639904813279.png" alt="Image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-margin-large-top">
+                                <div class="uk-flex-middle uk-animation-toggle" uk-grid>
+                                    <div class="uk-width-3-4@m">
+                                        <h4><a class="uk-link-heading">做菜入门教程</a></h4>
+                                        <p>本教程面向手有切菜之力的所有人，从市场买菜、切菜、洗锅......一步步视频教学！</p>
+                                    </div>
+                                    <div class="uk-width-1-4@m uk-flex-first uk-animation-slide-left-medium">
+                                        <img class="img-border-radius"
+                                            src="http://img2.imgtn.bdimg.com/it/u=2343867762,533106044&fm=26&gp=0.jpg"
+                                            alt="Image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-margin-large-top">
+                                <div class="uk-flex-middle uk-animation-toggle" uk-grid>
+                                    <div class="uk-width-3-4@m">
+                                        <h4><a class="uk-link-heading">穿衣搭配指南</a></h4>
+                                        <p>全网第一穿搭教程！穿搭是门学问，只有受过九年义务教义，就可以轻松掌握穿搭奥妙！免费！</p>
+                                    </div>
+                                    <div class="uk-width-1-4@m uk-flex-first uk-animation-slide-left-medium">
+                                        <img class="img-border-radius"
+                                            src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1572087080&di=45f4ebc83a42361713707b8016662e4b&imgtype=jpg&er=1&src=http%3A%2F%2Fimg1.juimg.com%2F141105%2F330476-14110514041932.jpg"
+                                            alt="Image">
+                                    </div>
+                                </div>
+                            </div>
 
+                        </div>
+
+
+
+                        <h3>时尚穿搭 <span class="uk-margin-small-right" uk-icon="camera"></span></h3>
+                        <hr>
+
+                        <div class="uk-child-width-1-2@s uk-child-width-1-4@m index-block-margin"
+                            uk-grid="masonry: true">
+
+                            <div>
+                                <div class="uk-card uk-card-default">
+                                        <div class="uk-card-media-bottom">
+                                                <img style="width:100%"
+                                                    src="http://qungz.photo.store.qq.com/qun-qungz/V11UtHc32lbd5J/V3tLOE2HZ8moV25eQ8B/800?w5=640&h5=1486&rf=viewer_421"
+                                                    alt="">
+                                            </div>
+                                    <div class="uk-card-body" style="height: 90px">
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt.</p>
+                                    </div>
+                         
+
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-bottom">
+                                        <img style="width:100%"
+                                            src="http://group.photo.store.qq.com/qun/V11UtHc34SbOVk/V3tLOE2Hbl2QFtJETMw/800?w5=640&h5=1005&rf=viewer_421"
+                                            alt="">
+                                    </div>
+                                    <div class="uk-card-body" style="height: 90px">
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-bottom">
+                                        <img style="width:100%"
+                                            src="http://qungz.photo.store.qq.com/qun-qungz/V11UtHc32lbd5J/V3tLOE2HaEmoV1X4gMS/800?w5=640&h5=1513&rf=viewer_421"
+                                            alt="">
+                                    </div>
+                                    <div class="uk-card-body" style="height: 90px">
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-bottom">
+                                        <img style="width:100%"
+                                            src="http://group.photo.store.qq.com/qun/V11UtHc31Gyt2i/V3tLOE2HZGFQFtokbUp/800?w5=640&h5=894&rf=viewer_421"
+                                            alt="">
+                                    </div>
+                                    <div class="uk-card-body" style="height: 90px">
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-bottom">
+                                        <img style="width:100%"
+                                            src="http://group.photo.store.qq.com/qun/V11UtHc32JWIu0/V3tLOE2HT*KrlvWvpIv/800?w5=640&h5=640&rf=viewer_421"
+                                            alt="">
+                                    </div>
+                                    <div class="uk-card-body" style="height: 90px">
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-bottom">
+                                        <img style="width:100%"
+                                            src="https://demo.yootheme.com/themes/wordpress/2017/joline/wp-content/themes/yootheme/cache/styles-style-04-8e065477.webp"
+                                            alt="">
+                                    </div>
+                                    <div class="uk-card-body" style="height: 90px">
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-bottom">
+                                        <img style="width:100%"
+                                            src="http://group.photo.store.qq.com/qun/V11UtHc33k6Pop/V3tLOE2HbQpOlv6Nu85/800?w5=640&h5=640&rf=viewer_421"
+                                            alt="">
+                                    </div>
+                                    <div class="uk-card-body" style="height: 90px">
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-bottom">
+                                        <img style="width:100%"
+                                            src="http://group.photo.store.qq.com/qun/V11UtHc32WUDG1/V3tLOE2HTvJHVsOC1Qg/800?w5=665&h5=640&rf=viewer_421"
+                                            alt="">
+                                    </div>
+                                    <div class="uk-card-body" style="height: 90px">
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <h3>最新愚文 <span class="uk-margin-small-right" uk-icon="list"></span></h3>
+                        <hr>
+                        <div class="uk-child-width-expand@s index-block-margin" uk-grid>
+                            <div class="uk-width-3-5@m">
+                                <div class="uk-flex-middle index-article-list" uk-grid>
+                                    <div class="uk-width-4-5@m">
+                                        <h4 class="index-article-list-title">初恋那点小事</h4>
+                                        <p>吹红了桃花,吹绿了柳树,你在路上总会安慰谁。吹醒了青蛙，吹来了燕子，我在城里刚好缺了谁。你纵然带来地下的玫瑰，</p>
+                                        <p><span class="uk-margin-small-right" uk-icon="pencil"></span><span
+                                                class="uk-text-middle">2019年5月20日 13:14 </span><span
+                                                class="uk-margin-small-right uk-margin-small-left"
+                                                uk-icon="heart"></span> <span class="uk-text-middle">9999</span></p>
+                                    </div>
+                                    <div class="uk-width-1-5@m  uk-animation-toggle">
+                                        <img src="https://img2.mukewang.com/5d8ddb9d0001b8d003670308-200-200.jpg"
+                                            class="uk-animation-slide-left">
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="uk-flex-middle" uk-grid>
+                                    <div class="uk-width-4-5@m">
+                                        <h4 class="index-article-list-title">初恋那点小事</h4>
+                                        <p>吹红了桃花,吹绿了柳树,你在路上总会安慰谁。吹醒了青蛙，吹来了燕子，我在城里刚好缺了谁。你纵然带来地下的玫瑰，</p>
+                                        <p><span class="uk-margin-small-right" uk-icon="pencil"></span><span
+                                                class="uk-text-middle">2019年5月20日 13:14 </span><span
+                                                class="uk-margin-small-right uk-margin-small-left"
+                                                uk-icon="heart"></span> <span class="uk-text-middle">9999</span></p>
+                                    </div>
+                                    <div class="uk-width-1-5@m  uk-animation-toggle">
+                                        <img src="https://img1.mukewang.com/5d9a97b00001603921701326-200-200.jpg"
+                                            class="uk-animation-slide-left">
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="uk-flex-middle" uk-grid>
+                                    <div class="uk-width-4-5@m">
+                                        <h4 class="index-article-list-title">初恋那点小事</h4>
+                                        <p>吹红了桃花,吹绿了柳树,你在路上总会安慰谁。吹醒了青蛙，吹来了燕子，我在城里刚好缺了谁。你纵然带来地下的玫瑰，</p>
+                                        <p><span class="uk-margin-small-right" uk-icon="pencil"></span><span
+                                                class="uk-text-middle">2019年5月20日 13:14 </span><span
+                                                class="uk-margin-small-right uk-margin-small-left"
+                                                uk-icon="heart"></span> <span class="uk-text-middle">9999</span></p>
+                                    </div>
+                                    <div class="uk-width-1-5@m  uk-animation-toggle">
+                                        <img src="https://www.imooc.com/static/img/article/cover/pic24.jpg"
+                                            class="uk-animation-slide-left">
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="uk-flex-middle" uk-grid>
+                                    <div class="uk-width-4-5@m">
+                                        <h4 class="index-article-list-title">初恋那点小事</h4>
+                                        <p>吹红了桃花,吹绿了柳树,你在路上总会安慰谁。吹醒了青蛙，吹来了燕子，我在城里刚好缺了谁。你纵然带来地下的玫瑰，</p>
+                                        <p><span class="uk-margin-small-right" uk-icon="pencil"></span><span
+                                                class="uk-text-middle">2019年5月20日 13:14 </span><span
+                                                class="uk-margin-small-right uk-margin-small-left"
+                                                uk-icon="heart"></span> <span class="uk-text-middle">9999</span></p>
+                                    </div>
+                                    <div class="uk-width-1-5@m  uk-animation-toggle">
+                                        <img src="https://img2.mukewang.com/5d9eeb48000180c305500331-200-200.jpg"
+                                            class="uk-animation-slide-left">
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="uk-flex-middle" uk-grid>
+                                    <div class="uk-width-4-5@m">
+                                        <h4 class="index-article-list-title">初恋那点小事</h4>
+                                        <p>吹红了桃花,吹绿了柳树,你在路上总会安慰谁。吹醒了青蛙，吹来了燕子，我在城里刚好缺了谁。你纵然带来地下的玫瑰，</p>
+                                        <p><span class="uk-margin-small-right" uk-icon="pencil"></span><span
+                                                class="uk-text-middle">2019年5月20日 13:14 </span><span
+                                                class="uk-margin-small-right uk-margin-small-left"
+                                                uk-icon="heart"></span> <span class="uk-text-middle">9999</span></p>
+                                    </div>
+                                    <div class="uk-width-1-5@m  uk-animation-toggle">
+                                        <img src="https://www.imooc.com/static/img/article/cover/pic21.jpg"
+                                            class="uk-animation-slide-left">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="uk-width-1-5@m uk-flex-first"></div> -->
+                            <div class="uk-width-1-5@m uk-flex-first">
+                            </div>
+                        </div>
+
+                </div>
+                <div>
+                    <h4>最新讲话 <span class="uk-margin-small-right" uk-icon="comments"></span></h4>
+                    <hr>
+
+                    <ul class="uk-list uk-list-divider">
+                        <li>
+                            <div class="uk-panel">
+                                <img class="uk-align-left uk-margin-remove-adjacent comment-avatar"
+                                    src="https://p1.music.126.net/ZiMLLicpcORQfFsuzGxOhw==/109951164418805316.jpg?param=50y50"
+                                    width="40" height="40" alt="Example image">
+                                <p class="comment-p"><a
+                                        class="comment-name">拒绝富婆99次：</a>“你哭的最伤心那个晚上变成大人了吗”“不是，是我忍住没哭的那个晚上。”</p>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-panel">
+                                <img class="uk-align-left uk-margin-remove-adjacent comment-avatar"
+                                    src="https://p2.music.126.net/y6bsHf-GncUEXfxotC8qtA==/109951163674247988.jpg?param=50y50"
+                                    width="40" height="40" alt="Example image">
+                                <p class="comment-p"><a class="comment-name">优先考虑先考虑你的人：</a>
+                                    听闻小姐治家有方，余生愿闻其详。 听闻公子四海为家，余生愿一起流浪。</p>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-panel">
+                                <img class="uk-align-left uk-margin-remove-adjacent comment-avatar"
+                                    src="https://p1.music.126.net/xsf2x9nETFu-LAige79Nqg==/109951163735959328.jpg?param=50y50"
+                                    width="40" height="40" alt="Example image">
+                                <p class="comment-p"><a class="comment-name">马云的男人：</a>
+                                    今天下班有点晚，可地铁还是那么挤，在车尾无意看到一个满脸泪水的姑娘，她没有表情没有声音，但是眼泪一直在流，很想给她一个拥抱，我知道在这繁盛生命里的孤独，望你开心。——致陌生姑娘
+                                </p>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-panel">
+                                <img class="uk-align-left uk-margin-remove-adjacent comment-avatar"
+                                    src="https://p2.music.126.net/TtX48bJY3ueuhe2M058K2g==/109951163550685562.jpg?param=50y50"
+                                    width="40" height="40" alt="Example image">
+                                <p class="comment-p"><a class="comment-name">你是睡：</a>考59分比考零分更难过，最痛苦的不是不曾拥有，而是差一点就可以。
+                                </p>
+
+                            </div>
+                        </li>
                     </ul>
 
-                </div>
 
-                <div>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                </div>
 
+                    <h4>作者 <span class="uk-margin-small-right" uk-icon="user"></span></h4>
+                    <hr>
+                    
+                    <div class="uk-card uk-card-default">
+            
+                        <div class="uk-card-body" >
+                                <article class="uk-comment">
+                                        <header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
+                                            <div class="uk-width-auto">
+                                                <img class="uk-border-pill" src="../image/avatar.jpg" width="80" height="80" alt="">
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">何以愚</a>
+                                                </h4>
+                                                <ul class="uk-comment-meta uk-subnav uk-margin-remove-top">
+                                                    <li><a href="#">射手座</a></li>
+                                                    <li><a href="#">程序员-冥想练习生</a></li>
+                
+                                                </ul>
+                                            </div>
+                                        </header>
+                                        <div class="uk-comment-body">
+                                            <p class="container">现在用身心透支的方式努力奋斗的人太多，极少人知道身心安宁、健康的方式才是最高效、最持久的奋斗法宝，更极少人知道怎么获得这种能力。物以稀为贵。
+                                            </p>
+                                        </div>
+                                        <div style="margin-top: 10px;">
+                
+                                            <a href="https://www.zhihu.com/people/shi-cuo-92-50/answers?order_by=created"
+                                                target="_blank"><img src="../image/zhihu.svg" width="30" height="30" uk-svg></a>
+                                            <div class="uk-inline">
+                                                <a><img src="../image/wechat.svg" width="30" height="30" uk-svg></a>
+                                                <div class="cu_toolbar" style="display: none;" uk-drop="pos: bottom-center"><img
+                                                        src="../image/avatar.jpg"></div>
+                                            </div>
+                                            <a href="https://github.com/heyiyu" target="_blank" uk-icon="github" width="30"
+                                                height="30"></a>
+                                        </div>
+                
+                
+                
+                                    </article>
+                        </div>
+                        <div class="uk-card-media-bottom">
+                            
+                                <div class="uk-cover-container uk-height-small" style="margin-top: 10px;">
+                                        <video src="https://yootheme.com/site/images/media/yootheme-pro.mp4" autoplay muted playsinline uk-cover></video>
+                                    </div>
+                                    </div>
+                    
+                    </div>
+
+                </div>
             </div>
-
         </div>
     </div>
+
+
     <!--底部分割线-->
     <hr class="uk-divider-icon">
     <!--页脚-->
     <div class="uk-section uk-section-xsmall">
         <div class="uk-container ">
 
-            <h3>Section Default</h3>
+
 
             <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
                 <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    <h4>赞助者 <span class="uk-margin-small-right" uk-icon="happy"></span></h4>
+                    <div >
+                        <img src="https://pic4.zhimg.com/80/v2-a47051e92cf74930bedd7469978e6c08_hd.png" width="100" uk-svg="">
+                        <img src="https://www.baidu.com/img/baidu_resultlogo@2.png" width="180"  uk-svg="">
+                        <img src="https://docs.alibabagroup.com/assets2/images/cn/global/logo_header.png" width="200" uk-svg="">
+                        <img src="https://s0.meituan.net/bs/fe-web-meituan/fa5f0f0/img/logo.png" width="120" uk-svg="">
+                        <img src="https://cdn.pinduoduo.com/home/static/img/common/pdd_logo_v2.png" width="120" uk-svg="">
+                        <img src="https://img3.doubanio.com/f/sns/19886d443852bee48de2ed91f4a3bdfdaf8c809c/pics/nav/logo_db.png" width="120" uk-svg="">
+                        <img src="https://s3.pstatp.com/aweme/resource/web/static/image/index/logo_efcda07.png" width="120" uk-svg="">
+                    </div>
+
                 </div>
                 <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    <h4>推荐链接 <span class="uk-margin-small-right" uk-icon="forward"></span></h4>
+                    <p>吸猫网  &nbsp; 杠精学院 &nbsp; 苏大强个人网站 &nbsp; 网红带货 &nbsp; 我太难了 &nbsp; 有种饿叫你妈觉得你饿了</p>
+
                 </div>
                 <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    <h4>联系我 <span class="uk-margin-small-right" uk-icon="rss"></span></h4>
+                    <p>银河有迹可循</p>
                 </div>
             </div>
 
@@ -178,7 +467,7 @@
 
                 </div>
                 <div>
-                    <p>© 何以愚的官方网站 2018-2019 粤ICP备18097511号</p>
+                    <p>Copyright © 公元前506-2019 何以愚</p>
                 </div>
                 <div>
 
