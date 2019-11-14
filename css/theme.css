@@ -63,3 +63,5 @@ margin: 0;
     padding: 10px 20px;
 }
 .blog-uk-light{color: rgba(255, 255, 255);}
+
+.uk-link-reset a, a.uk-link-reset, .uk-text-lead,.uk-article-meta,.uk-article-meta a{color: #ffffff;}
